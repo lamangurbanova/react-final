@@ -18,7 +18,7 @@
 .testimonials .box{
     background-image: url(../../../public/assets/Images/pattern-05.png);
     border: 1px solid #c19f5f;
-    width: 60%;
+    width: 100%;
 }
 .testimonials .box .icon i{
     color: #c19f5f;
@@ -28,6 +28,24 @@
     color: hsla(0,0%,100%,.502);
     font-size: 25px;
     padding: 10px 30px 20px;
-    width: 70%;
+    width: 100%;
     text-align: center;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    opacity: 0 !important;
+}
+
+@media (min-width: 576px) {
+    .testimonials .box {
+        width: 60%;
+    }
+    .testimonials .box p{
+        width: 70%;
+    }
+    
+.swiper-button-prev, .swiper-button-next{
+    opacity: 1 !important;
+}
+    
 }

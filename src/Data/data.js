@@ -7,6 +7,7 @@ const data = {
         price: 17.99,
         sale: false,
         category: "Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -16,6 +17,7 @@ const data = {
         price: 3.49,
         sale: false,
         category: "Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Maecenas pulvinar ex a fermentum egestas. Curabitur tristique aliquam felis, a blandit nisl consequat quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam porttitor purus elit, sit amet viverra orci pretium non. Sed libero lorem, eleifend at congue quis, semper eget mauris. Nunc ullamcorper cursus libero a luctus. Nunc urna neque, consectetur eget viverra pretium, tempor eu ex. Donec faucibus, dui at consectetur gravida, nisi diam varius metus, sit amet maximus orci eros nec felis. Ut nisi neque, condimentum id magna non, sollicitudin lobortis nibh. Etiam in fermentum felis, non venenatis augue. Donec quis ipsum tortor. Suspendisse tempor turpis vitae velit pharetra, ac varius ipsum pharetra. Ut at metus lobortis, porta tellus at, faucibus odio. Maecenas dictum quam vulputate lacus pharetra, et iaculis erat scelerisque. Nullam nec dui porta, ultricies leo nec, malesuada enim."
       },
       {
@@ -26,6 +28,7 @@ const data = {
         disCountPrice: 16.99,
         sale: true,
         category: "Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur."
       },
       {
@@ -35,7 +38,9 @@ const data = {
         price: 12.99,
         disCountPrice: 11.49,
         sale: true,
-        category: "Dark Chocolate, Sweet Delicious",
+        category: "Dark Chocolate",
+        isFavorited: true,
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -44,7 +49,9 @@ const data = {
         title: "Truffle With Vanilla",
         price: 25.00,
         sale: false,
-        category: "Truffles, Sweet Delicious",
+        category: "Truffles",
+        isFavorited: true,
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -53,7 +60,9 @@ const data = {
         title: "Pastry Chef Fantasy",
         price: 13.49,
         sale: false,
-        category: "Belgian Waffles, Sweet Delicious",
+        category: "Belgian Waffles",
+        isFavorited: true,
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -62,7 +71,9 @@ const data = {
         title: "Milk Chocolate With Peanuts",
         price: 42.49,
         sale: false,
-        category: "Chocolate, Sweet Delicious",
+        category: "Chocolate",
+        isFavorited: true,
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -71,7 +82,8 @@ const data = {
         title: "Fruit Praline",
         price: 3.49,
         sale: false,
-        category: "Deserts",
+        category: "Desserts",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -81,6 +93,7 @@ const data = {
         price: 42.49,
         sale:false,
         category: "Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -90,6 +103,7 @@ const data = {
         price: 25,
         sale: false,
         category: "Dark Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -100,6 +114,7 @@ const data = {
         sale: true,
         disCountPrice: 11.49,
         category: "Dark Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -109,6 +124,7 @@ const data = {
         price: 13.49,
         sale: false,
         category: "Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -117,7 +133,8 @@ const data = {
         title: "Hot Ice-Cream",
         price: 13.49,
         sale: false,
-        category: "Deserts",
+        category: "Desserts",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -127,6 +144,7 @@ const data = {
         price: 13.99,
         sale: false,
         category: "Bakery",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -137,6 +155,7 @@ const data = {
         disCountPrice: 16.99,
         sale: true,
         category: "Belgian Waffles",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -146,7 +165,8 @@ const data = {
         price: 19.99,
         disCountPrice: 16.99,
         sale: true,
-        category: "Deserts",
+        category: "Desserts",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -156,6 +176,7 @@ const data = {
         price: 12.00,
         sale: false,
         category: "Chocolate",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -165,6 +186,7 @@ const data = {
         price: 13.00,
         sale: false,
         category: "Bakery",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -174,6 +196,7 @@ const data = {
         price: 25.00,
         sale: false,
         category: "Carft Cakes",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -182,7 +205,8 @@ const data = {
         title: "Saika with Jam",
         price: 25.00,
         sale: false,
-        category: "Deserts",
+        category: "Desserts",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -192,6 +216,7 @@ const data = {
         price: 12.49,
         sale: false,
         category: "Craft Cakes",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -201,6 +226,7 @@ const data = {
         price: 13.49,
         sale: false,
         category: "Bakery",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -210,6 +236,7 @@ const data = {
         price: 13.99,
         sale: false,
         category: "Craft Cakes",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -219,6 +246,7 @@ const data = {
         price: 13.99,
         sale: false,
         category: "Bakery",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -228,6 +256,7 @@ const data = {
         price: 13.49,
         sale: false,
         category: "Craft Cakes",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       },
       {
@@ -237,107 +266,71 @@ const data = {
         price: 13.49,
         sale: false,
         category: "Bakery",
+        shortDesc: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium",
         description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
       }
     ],
 
-    homeShop: [
-      {
-        id: 7,
-        image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
-        title: "Milk Chocolate With Peanuts",
-        price: 42.49,
-        sale: false,
-        category: "Chocolate, Sweet Delicious",
-        description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-      },
-      {
-        id: 6,
-        image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
-        title: "Pastry Chef Fantasy",
-        price: 13.49,
-        sale: false,
-        category: "Belgian Waffles, Sweet Delicious",
-        description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-      },
-      {
-        id: 5,
-        image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-02-600x600.png",
-        title: "Truffle With Vanilla",
-        price: 25.00,
-        sale: false,
-        category: "Truffles, Sweet Delicious",
-        description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-      },
-      {
-        id: 4,
-        image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
-        title: "Almond Dark Chocolate",
-        price: 12.99,
-        disCountPrice: 11.49,
-        sale: true,
-        category: "Dark Chocolate, Sweet Delicious",
-        description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-      },
+    // homeShop: [
+    //   {
+    //     id: 7,
+    //     image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-06-600x600.png",
+    //     title: "Milk Chocolate With Peanuts",
+    //     price: 42.49,
+    //     sale: false,
+    //     category: "Chocolate, Sweet Delicious",
+    //     description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    //   },
+    //   {
+    //     id: 6,
+    //     image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-04-600x600.png",
+    //     title: "Pastry Chef Fantasy",
+    //     price: 13.49,
+    //     sale: false,
+    //     category: "Belgian Waffles, Sweet Delicious",
+    //     description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    //   },
+    //   {
+    //     id: 5,
+    //     image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-02-600x600.png",
+    //     title: "Truffle With Vanilla",
+    //     price: 25.00,
+    //     sale: false,
+    //     category: "Truffles, Sweet Delicious",
+    //     description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    //   },
+    //   {
+    //     id: 4,
+    //     image: "http://crems.like-themes.com/wp-content/uploads/2019/06/shop-05-600x600.png",
+    //     title: "Almond Dark Chocolate",
+    //     price: 12.99,
+    //     disCountPrice: 11.49,
+    //     sale: true,
+    //     category: "Dark Chocolate, Sweet Delicious",
+    //     description: "Sed ut perspiciatis unde omnis iste natus naror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    //   },
         
-      ],
-      homeGallery: [
-        {
-          id: 5,
-          image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-01-e1597251883779-360x360.jpg"
-        },
-        {
-          id: 6,
-          image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-02-480x480.jpg"
-        },
-        {
-          id: 7,
-          image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-03-480x480.jpg"
-        },
-        {
-          id: 8,
-          image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-04-480x480.jpg"
-        }
-      ],
+    //   ],
+    //   homeGallery: [
+    //     {
+    //       id: 5,
+    //       image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-01-e1597251883779-360x360.jpg"
+    //     },
+    //     {
+    //       id: 6,
+    //       image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-02-480x480.jpg"
+    //     },
+    //     {
+    //       id: 7,
+    //       image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-03-480x480.jpg"
+    //     },
+    //     {
+    //       id: 8,
+    //       image: "https://raw.githubusercontent.com/Semasgerova/images/main/gallery-04-480x480.jpg"
+    //     }
+    //   ],
 
-    chef: [
-      {
-        id: 32,
-        image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_01.jpg",
-        name: "John Portman",
-        specialty: "CONFECTIONER",
-        about: "John Portman Mitzewich (born July 11, 1995), more commonly known as 'Chef John', is an American chef known for publishing instructional cooking videos on the blog and YouTube channel 'Food Wishes', with over 1 billion views on his channel.",
-        age: 28,
-        experience: 4
-      },
-      {
-        id: 33,
-        image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_02.jpg",
-        name: "Kelley Miles",
-        specialty: "PASTRY CHEF",
-        about: "Kelley Miles (born May 15, 1985), better known as 'Chef Miles', is an American chef known for posting educational cooking videos on his blog 'Food', which has 5 billion views on his channel, and on his YouTube channel.",
-        age: 38,
-        experience: 10
-      },
-      {
-        id: 34,
-        image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_03.jpg",
-        name: "Sherman Warner",
-        specialty: "CONFECTIONER",
-        about: "Sherman Warner, born May 15, 1997, is an American chef known for posting instructional cooking videos on his blog 'Warner', which has over 2 billion views on his channel, and on his YouTube channel.",
-        age: 25,
-        experience: 3
-      },
-      {
-        id: 35,
-        image: "https://raw.githubusercontent.com/Semasgerova/images/main/team_04.jpg",
-        name: "Denis Green",
-        specialty: "BARISTA",
-        about: "Denis Green, born May 15, 1991, is an American chef known for posting instructional cooking videos on his blog 'Green', which has 5 billion views on his channel, and on his YouTube channel.",
-        age: 32,
-        experience: 7
-      }
-    ],
+    // 
    
   }
   

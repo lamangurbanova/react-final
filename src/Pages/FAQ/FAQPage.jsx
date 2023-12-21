@@ -80,7 +80,7 @@ const FAQPage = () => {
       <div className="content">
         <div className="container">
           <div className="row w-100">
-            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
               <div className="header">
                 <h5>Every day help for our customers</h5>
               </div>

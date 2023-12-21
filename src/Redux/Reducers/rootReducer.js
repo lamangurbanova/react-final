@@ -1,11 +1,13 @@
 import { combineReducers } from "redux";
-import { getHomeProductReducer } from "./productReducer";
-import formReducer from "./formReducer";
+import { getHomeProductReducer, getProductItemReducer } from "./productReducer";
+import { CartReducer } from "./cartReducer";
+import { getChefReducer, getCheftItemReducer } from "./chefReducer";
 
 
 export const rootReducer = combineReducers({
   homeProducts: getHomeProductReducer,
-  form: formReducer,
-  // productItem: getProductItemReducer,
-  // cartItems: CartReducer
+  cartItems: CartReducer,
+  productItem: getProductItemReducer,
+  chefItem: getChefReducer,
+  chef:getCheftItemReducer
 })

@@ -5,6 +5,7 @@ import Counter from "../../Components/CountUp/Counter";
 import Video from "../../Components/Video/VideoSection";
 import "./about.css"
 import Sweet from './Sweet';
+import ChefSection from './ChefSection';
 
 const AboutPage = () => {
   return (
@@ -26,6 +27,8 @@ const AboutPage = () => {
       </div>
 
       <Video/>
+
+      <ChefSection/>
       
     </div>
   )

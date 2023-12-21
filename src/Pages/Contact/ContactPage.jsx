@@ -37,7 +37,10 @@ const ContactPage = () => {
         />
       </div>
 
-      <div className="map">
+      <div style={{filter: "grayscale(100%)"}} className="map">
+     
+
+
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d387179.18477109616!2d-74.216713!3d40.699579!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1682716945803!5m2!1sen!2sus"
           width="100%"

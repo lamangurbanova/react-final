@@ -1,9 +1,10 @@
 header {
   transition: all 0.5s ease;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 1000000;
+  background: linear-gradient(0deg,transparent,rgba(6,6,6,.936) 45%);
   
 }
 .container {

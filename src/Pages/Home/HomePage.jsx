@@ -11,7 +11,7 @@ import './home.css'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='position-relative'>
       <HeroSection/>
       <AboutSection/>
       <Elementor/>

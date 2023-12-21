@@ -11,10 +11,10 @@ const NotFoundPage = () => {
       <Header/>
       <MainSection className='notFoundMain' title="404 Not Found"/>
       <div className="content">
-        <div className="container d-flex flex-column align-items-center">
+        <div className="container d-flex flex-column align-items-center justify-content-center">
             <img src="http://crems.like-themes.com/wp-content/uploads/2019/06/404_crems.png" alt="" />
-            <h4>Oops! Page Not Found</h4>
-            <p>The page you are looking for was moved, removed, renamed or might never existed.</p>
+            <h4 className='text-center'>Oops! Page Not Found</h4>
+            <p className='text-center'>The page you are looking for was moved, removed, renamed or might never existed.</p>
             <Link to={"/"} >
                 <Button title="Home Page" />
             </Link>

@@ -1,20 +1,26 @@
 import React, { useEffect } from "react";
-// import AOS from "aos";
-// import "aos/dist/aos.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Button from "../../Components/Button/Button";
 import { Link } from "react-router-dom";
 import PropductItem from "../../Components/ProductItem/PropductItem";
 import { connect } from "react-redux";
 import { getHomeProductAction } from "../../Redux/Actions/productAction";
+import { addToCartAction } from "../../Redux/Actions/cartAction";
+
 
 const Store = (props) => {
 
-  console.log(props.products);
 
   useEffect(() => {
-    // AOS.init();
+    AOS.init();
     return props.getHomeProductAction();
-  }, []);
+  },[]);
+
+  const handleAddToCart = (product) =>{
+    return props.addToCartAction(product);
+  }
+
 
   return (
     <div className="store d-flex flex-column align-items-center">
@@ -24,15 +30,18 @@ const Store = (props) => {
       </div>
       <div className="cards pt-5">
         <div className="container">
-          <div className="m-0 g-5 d-lg-flex d-none row w-100">
+          <div className="m-0 g-5 row w-100">
             {
               props.products.isLoading ? (
-                <div className=""> Loading..  </div>
+                <div style={{color: "#fff", fontSize: "25px"}} className=""> Loading..  </div>
               ) :
               props.products.products.length > 0 ? (
-                props.products.products.map((item, index) => {
+                props.products.products.filter((product)=> product.isFavorited).map((item, index) => {
                 return (
                   <PropductItem
+                    addCartFunc = { ()=> handleAddToCart(item)}
+                    id={item.id}
+                    col={"col-lg-3"}
                     key={index}
                     image={item.image}
                     title={item.title}
@@ -41,8 +50,10 @@ const Store = (props) => {
                 );
               })
             ) : (
-              <h1>Data not found</h1>
+              <h1 style={{color: "white"}}>Data not found</h1>
             )}
+
+          
           </div>
         </div>
       </div>
@@ -56,7 +67,8 @@ const Store = (props) => {
 const mapStateToProps = (state) => {
   return {
     products: state.homeProducts,
+    cartItem: state.cartItems,
   };
 };
 
-export default connect(mapStateToProps, { getHomeProductAction }) (Store);
+export default connect(mapStateToProps, { getHomeProductAction, addToCartAction }) (Store);

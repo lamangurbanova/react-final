@@ -15,7 +15,7 @@ const Footer = () => {
               <div className="footer-widget">
                 <div className="logo d-flex justify-content-center justify-content-lg-start ">
                   <Link to={"/"}>
-                     <img src="assets/images/logo_1x_white-1.png" alt="" />
+                     <img src="	http://crems.like-themes.com/wp-content/uploads/2019/06/logo_1x_white-1.png" alt="" />
                   </Link>
                   
                 </div>

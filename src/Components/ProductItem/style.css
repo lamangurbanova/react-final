@@ -1,3 +1,9 @@
+.boxes{
+    cursor: pointer;
+}
+a{
+    text-decoration: none !important;
+}
 .boxes .box{
     overflow: hidden;
     position: relative;
@@ -40,6 +46,7 @@
     z-index: 1000;
 }
 .item-desc{
+    width: 100%;
     padding-top: 80px;
     overflow: hidden;
     position: relative;
@@ -75,6 +82,7 @@
 .item-desc .price{
     color: #c19f5f;
     font-size: 20px;
+    display: inline-block;
 }
 @keyframes scale {
     0%{
@@ -83,4 +91,45 @@
     100%{
         transform: scale(1.2);
     }
+}
+p.disCountPrice{
+    color: gray !important;
+    margin-right: 6px;
+}
+p.newPrice{
+    color: red !important;
+}
+.main-btn{
+    padding: 20px;
+    min-width: 190px;
+    background-color: transparent;
+    border-radius: 35px !important;
+    border: 1px solid  #c19f5f ;
+    transition: .5s ease;
+}
+.main-btn{
+    color: #c19f5f;
+    letter-spacing: 3px;
+    font-weight: 300;
+    transition: .5s ease;
+}
+.main-btn:hover{
+    border-color: #fff;
+}
+.main-btn:hover span{
+    color: #fff;
+}
+.main-btn .fa-arrow-right{
+    transition: .5s ease;
+}
+.main-btn:hover .fa-arrow-right{
+   transform: translateX(10px);
+}
+
+@media (min-width: 768px){
+    .boxes .box .img{
+        width: 250px;
+        height: 250px;
+    }
+    
 }
